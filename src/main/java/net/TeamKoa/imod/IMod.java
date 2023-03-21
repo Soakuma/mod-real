@@ -1,6 +1,7 @@
 package net.TeamKoa.imod;
 
 import com.mojang.logging.LogUtils;
+import net.TeamKoa.imod.block.ModBlocks;
 import net.TeamKoa.imod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,7 @@ public class IMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

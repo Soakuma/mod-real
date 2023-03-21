@@ -13,11 +13,11 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, IMod.MOD_ID);
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> AMETHYSTLIZED_DIAMOND = ITEMS.register("amethystlized_diamond",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
-    public static final RegistryObject<Item> HIHIIROKANE_INGOT = ITEMS.register("hihiirokane_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegisterObject<Item> HIHIIROKANE = ITEMS.register("hihiirikane",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.Tab_Misc));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

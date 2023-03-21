@@ -1,4 +1,6 @@
 {
   "item.imod.ruby": "ruby",
-  "item.imod.amethystlized_diamond": "amethystlized diamond"
+  "item.imod.amethystlized_diamond": "amethystlized diamond",
+
+  "itemGroup.Imod": "Imod"
 }

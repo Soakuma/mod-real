@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "imod:amethystlized_diamond"
+  }
+}

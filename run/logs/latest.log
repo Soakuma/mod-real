@@ -1,82 +1,97 @@
-[123월2023 16:14:25.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\MOON\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
-[123월2023 16:14:25.168] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[123월2023 16:14:25.403] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MOON/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23118!/ Service=ModLauncher Env=CLIENT
-[123월2023 16:14:26.050] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19-41.1.0\be32fef2bf3091b53308e5a1b1930169dd34136c\javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
-[123월2023 16:14:26.061] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19-41.1.0\887bff594c934cc4088c9c867db193b8537ee1f6\lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
-[123월2023 16:14:26.070] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19-41.1.0\48ae61dcde926300da0c051d88c072ef1dc71ebb\mclanguage-1.19-41.1.0.jar is missing mods.toml file
-[123월2023 16:14:26.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19-41.1.0\a11d8b3111ba256064745a6a79f7fee189751152\fmlcore-1.19-41.1.0.jar is missing mods.toml file
-[123월2023 16:14:26.236] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[123월2023 16:14:28.058] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\MOON\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[123월2023 16:14:33.771] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[123월2023 16:14:36.483] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MOON/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.1.0_mapped_official_1.19/forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[123월2023 16:14:36.484] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MOON/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.1.0_mapped_official_1.19/forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[123월2023 16:14:36.523] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[123월2023 16:14:36.530] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[123월2023 16:14:36.675] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[123월2023 16:14:37.456] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
-[123월2023 16:14:37.459] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
-[123월2023 16:14:39.366] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[123월2023 16:14:39.456] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [imod]
-[123월2023 16:14:39.932] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[123월2023 16:14:40.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[123월2023 16:14:41.661] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
-[123월2023 16:14:50.992] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture imod:item/ruby with size 399x422 limits mip level from 4 to 0
-[123월2023 16:14:53.769] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[123월2023 16:14:53.770] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[123월2023 16:14:53.989] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(2- Logitech G733 Gaming Headset)
-[123월2023 16:14:53.991] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[123월2023 16:14:54.264] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[123월2023 16:14:54.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[123월2023 16:14:54.385] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[123월2023 16:14:54.392] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[123월2023 16:14:54.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[123월2023 16:14:54.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[123월2023 16:14:54.403] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[123월2023 16:14:56.401] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[123월2023 16:14:57.468] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[123월2023 16:14:57.481] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[123월2023 16:14:57.483] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[123월2023 16:14:58.386] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[123월2023 16:15:23.247] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[123월2023 16:15:24.657] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[123월2023 16:15:25.301] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19
-[123월2023 16:15:25.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[123월2023 16:15:25.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[123월2023 16:15:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.285] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
-[123월2023 16:15:30.823] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 3%
-[123월2023 16:15:31.260] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 23%
-[123월2023 16:15:31.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 55%
-[123월2023 16:15:32.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 84%
-[123월2023 16:15:32.480] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[123월2023 16:15:32.493] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6734 ms
-[123월2023 16:15:32.668] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 9, from 10
-[123월2023 16:15:32.675] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[123월2023 16:15:32.898] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[123월2023 16:15:34.006] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[123월2023 16:15:34.185] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@17947838
-[123월2023 16:15:34.259] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1ad31a11] logged in with entity id 1 at (60.1286787937377, 138.0, 81.43801353782014)
-[123월2023 16:15:34.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev이(가) 게임에 참여했습니다
-[123월2023 16:15:37.042] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 67 advancements
-[123월2023 16:20:06.229] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[123월2023 16:20:06.281] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 연결 끊김
-[123월2023 16:20:06.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev이(가) 게임을 떠났습니다
-[123월2023 16:20:06.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[123월2023 16:20:06.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[123월2023 16:20:06.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[123월2023 16:20:06.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[123월2023 16:20:08.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
-[123월2023 16:20:09.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
-[123월2023 16:20:09.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
-[123월2023 16:20:09.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (새로운 세계): All chunks are saved
-[123월2023 16:20:09.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[123월2023 16:20:09.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[123월2023 16:20:09.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[213월2023 19:29:28.904] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\MOON\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
+[213월2023 19:29:28.910] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[213월2023 19:29:29.051] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MOON/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23118!/ Service=ModLauncher Env=CLIENT
+[213월2023 19:29:29.433] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19-41.1.0\be32fef2bf3091b53308e5a1b1930169dd34136c\javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
+[213월2023 19:29:29.438] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19-41.1.0\887bff594c934cc4088c9c867db193b8537ee1f6\lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
+[213월2023 19:29:29.446] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19-41.1.0\48ae61dcde926300da0c051d88c072ef1dc71ebb\mclanguage-1.19-41.1.0.jar is missing mods.toml file
+[213월2023 19:29:29.453] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MOON\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19-41.1.0\a11d8b3111ba256064745a6a79f7fee189751152\fmlcore-1.19-41.1.0.jar is missing mods.toml file
+[213월2023 19:29:29.543] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[213월2023 19:29:30.746] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\MOON\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[213월2023 19:29:34.357] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[213월2023 19:29:35.899] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MOON/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.1.0_mapped_official_1.19/forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[213월2023 19:29:35.900] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MOON/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.1.0_mapped_official_1.19/forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[213월2023 19:29:35.926] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[213월2023 19:29:35.938] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[213월2023 19:29:36.050] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[213월2023 19:29:36.550] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
+[213월2023 19:29:36.553] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
+[213월2023 19:29:37.785] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[213월2023 19:29:37.842] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [imod]
+[213월2023 19:29:38.175] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[213월2023 19:29:38.505] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[213월2023 19:29:39.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
+[213월2023 19:29:46.915] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture imod:item/ruby with size 399x422 limits mip level from 4 to 0
+[213월2023 19:29:49.089] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[213월2023 19:29:49.089] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[213월2023 19:29:49.148] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(Steam Streaming Microphone)
+[213월2023 19:29:49.149] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[213월2023 19:29:49.346] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[213월2023 19:29:49.431] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[213월2023 19:29:49.432] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[213월2023 19:29:49.437] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[213월2023 19:29:49.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[213월2023 19:29:49.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[213월2023 19:29:49.446] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[213월2023 19:29:50.978] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[213월2023 19:29:51.921] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[213월2023 19:29:51.937] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[213월2023 19:29:51.940] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[213월2023 19:29:53.180] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[213월2023 19:30:17.137] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[213월2023 19:30:18.047] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[213월2023 19:30:18.482] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19
+[213월2023 19:30:18.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[213월2023 19:30:18.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[213월2023 19:30:21.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.376] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.376] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 0%
+[213월2023 19:30:21.834] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 13%
+[213월2023 19:30:22.299] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 스폰 영역 준비 중: 69%
+[213월2023 19:30:22.636] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3847 ms
+[213월2023 19:30:22.637] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[213월2023 19:30:22.996] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 9, from 10
+[213월2023 19:30:23.000] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[213월2023 19:30:23.193] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[213월2023 19:30:23.947] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[213월2023 19:30:24.016] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@79e03b05
+[213월2023 19:30:24.049] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8dd984c1] logged in with entity id 6 at (60.1286787937377, 138.0, 81.43801353782014)
+[213월2023 19:30:24.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev이(가) 게임에 참여했습니다
+[213월2023 19:30:26.253] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 67 advancements
+[213월2023 19:30:28.989] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[213월2023 19:30:29.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[213월2023 19:30:29.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[213월2023 19:30:29.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[213월2023 19:30:35.800] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[213월2023 19:30:35.800] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[213월2023 19:30:35.882] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(Steam Streaming Microphone)
+[213월2023 19:30:35.882] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[213월2023 19:30:36.463] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[213월2023 19:30:36.463] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[213월2023 19:30:36.559] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 라인(Voicemod Virtual Audio Device (WDM))
+[213월2023 19:30:36.559] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[213월2023 19:30:36.933] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[213월2023 19:30:36.933] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[213월2023 19:30:38.635] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(Realtek(R) Audio)
+[213월2023 19:30:38.635] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[213월2023 19:32:22.710] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] 2023-03-21_19.32.22.png로 스크린샷을 저장했습니다
+[213월2023 19:32:27.088] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[213월2023 19:32:27.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[213월2023 19:32:27.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[213월2023 19:32:27.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[213월2023 19:32:27.542] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 연결 끊김
+[213월2023 19:32:27.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev이(가) 게임을 떠났습니다
+[213월2023 19:32:27.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[213월2023 19:32:27.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[213월2023 19:32:27.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[213월2023 19:32:27.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[213월2023 19:32:28.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[213월2023 19:32:28.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[213월2023 19:32:28.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[213월2023 19:32:28.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (새로운 세계): All chunks are saved
+[213월2023 19:32:28.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[213월2023 19:32:28.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[213월2023 19:32:28.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[213월2023 19:33:02.006] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

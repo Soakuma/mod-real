@@ -16,7 +16,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
     public static final RegistryObject<Item> AMETHYSTLIZED_DIAMOND = ITEMS.register("amethystlized_diamond",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
-    public static final RegistryObject<Item> HIHIIROKANE = ITEMS.register("hihiirokane",
+    public static final RegistryObject<Item> HIHIIROKANE_INGOT = ITEMS.register("hihiirokane ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.I_TAB)));
 
     public static void register(IEventBus eventBus) {

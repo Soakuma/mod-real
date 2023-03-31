@@ -27,7 +27,7 @@ displayName="I Mod" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="imod.png" #optional
 # A text field displayed in the mod UI
 credits="vanilla Patchouli(총괄), eiden(기획 및 아이디어), dekorei(디자인), Koakuma Fumo(소스)" #optional
 # A text field displayed in the mod UI

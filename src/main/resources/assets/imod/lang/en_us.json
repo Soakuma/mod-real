@@ -2,6 +2,12 @@
   "item.imod.ruby": "ruby",
   "item.imod.amethystlized_diamond": "amethystlized diamond",
   "item.imod.hihiirokane_ingot": "hihiirokane ingot",
+  "item.imod.bad_apple": "music_disc",
+  "subtitles.bad_apple": "",
+  "item.imod.bad_apple.desc": "Alstroemeria Record - Bad Apple!! feat.nomico",
+  "item.imod.bad_apple_th04": "music_disc",
+  "subtitles.bad_apple_th04": "",
+  "item.imod.bad_apple_th04.desc": "ZUN - bad apple!!",
 
   "block.imod.hihiirokane_ore": "hihiirokane ore",
 

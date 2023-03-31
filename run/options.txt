@@ -20,7 +20,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5598591549295775
+mouseSensitivity:0.5774647887323944
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -41,7 +41,7 @@ resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ko_kr
-soundDevice:"OpenAL Soft on 스피커(Realtek(R) Audio)"
+soundDevice:"OpenAL Soft on 스피커(2- Logitech G733 Gaming Headset)"
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0

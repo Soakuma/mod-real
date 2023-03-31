@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "X": {
+      "item": "imod:bad_apple_th04"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "imod:bad_apple"
+  }
+}

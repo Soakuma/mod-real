@@ -2,6 +2,7 @@ package net.TeamKoa.imod;
 
 import com.mojang.logging.LogUtils;
 import net.TeamKoa.imod.block.ModBlocks;
+import net.TeamKoa.imod.init.ModSounds;
 import net.TeamKoa.imod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class IMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.REGISTRY.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

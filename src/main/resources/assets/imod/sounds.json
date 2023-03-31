@@ -1,0 +1,20 @@
+{
+  "bad_apple": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "imod:bad_apple",
+        "stream": true
+      }
+    ]
+  },
+  "bad_apple_th04": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "imod:bad_apple_th04",
+        "stream": true
+      }
+    ]
+  }
+}
